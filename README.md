@@ -8,14 +8,14 @@ Users can only move the tiles adjacent to the empty tile in the direction output
 ## Program structure
 1.	Take the input of the dimension of the puzzle. 
 2.	Create the ordered list and the randomized list.
-  a.	Reformat the lists to form a nested list of the ordered list (the solved puzzle).
-  b.	Reformat the lists to form a nested list of the randomized list (the puzzle).
-    i.	Check if the puzzle is solvable or not.
-    ii.	If it is not solvable, reshuffle the list.
-3.	Take the input of the four letters used for the movement during the game.
-4.	Print the puzzle.
-5.	While the puzzle is not ordered, 
-  a.	The program will print different output according to the position of the blank tile.
-  b.	The user can swap the tiles in the puzzle if the letters are inputted before, and it is a valid movement in the puzzle.
-  c.	The program will print the updated puzzle.
-6.	If the puzzle is solved, the program will print the number of steps used and ask if the user wants to play again or end the game.
+    - Reformat the lists to form a nested list of the ordered list (the solved puzzle).
+    - Reformat the lists to form a nested list of the randomized list (the puzzle).
+      * Check if the puzzle is solvable or not.
+      * If it is not solvable, reshuffle the list.
+4.	Take the input of the four letters used for the movement during the game.
+5.	Print the puzzle.
+6.	While the puzzle is not ordered,
+    - The program will print different output according to the position of the blank tile.
+    -	The user can swap the tiles in the puzzle if the letters are inputted before, and it is a valid movement in the puzzle.
+    -	The program will print the updated puzzle.
+7.	If the puzzle is solved, the program will print the number of steps used and ask if the user wants to play again or end the game.
